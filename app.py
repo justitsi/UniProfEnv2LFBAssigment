@@ -10,11 +10,23 @@ import openpyxl
 import xlrd
 import pickle
 from mpl_toolkits.mplot3d import Axes3D
+import matplotlib.pyplot as plt; plt.rcdefaults()
 
 data = pd.read_pickle('Excel_data')
-#print data for first and 2000nd element
+#print (data["IncidentGroup"].dtypes)
 
-#print (data.describe())
-#print(data['DateOfCall'].loc[2000])
-sub_data_2firetrucks = data [data['NumPumpsAttending']==12]
-print (sub_data_2firetrucks.loc[244943])
+data_fire = data [data['IncidentGroup']=='Fire']
+data_ss = data [data['IncidentGroup']=='Special Service']
+data_fa= data [data['IncidentGroup']=='False Alarm']
+
+data_byDayOfTheWeek = data_fa   ['DateOfCall'].dt.dayofweek
+print (data_byDayOfTheWeek)
+count = data_byDayOfTheWeek.value_counts()
+print (count)
+
+myfigure = plt.figure()
+plt.hist(data_byDayOfTheWeek, bins = 7)
+plt.show()
+
+#data_tmp = data_ss.pivot_table(index=['SpecialServiceType'], aggfunc='size')
+#print (data_tmp)

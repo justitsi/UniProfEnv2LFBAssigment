@@ -41,17 +41,17 @@ print(sub_data1)
 #print (corr)
 
 #TASK 3 Create histogram and don't get cancer
-#data['PropertyType'] = data['PropertyType'].str.strip()
-#sub_data2 = data [data['PropertyType']=='Student Hall of Residence']
+# data['PropertyType'] = data['PropertyType'].str.strip()
+# sub_data2 = data [data['PropertyType']=='Student Hall of Residence']
 
-#sh_month = sub_data2['DateOfCall'].dt.month
-#print (sh_month)
-#count = sh_month.value_counts()
-#print (count)
+# sh_month = sub_data2['DateOfCall'].dt.month
+# print (sh_month)
+# count = sh_month.value_counts()
+# print (count)
 
-#myfigure = plt.figure()
-#plt.hist(sh_month, bins = 12)
-#plt.show()
+# myfigure = plt.figure()
+# plt.hist(sh_month, bins = 12)
+# plt.show()
 
 # TASK 4 - original try for a 3D diagram
 # x = data['Northing_rounded']

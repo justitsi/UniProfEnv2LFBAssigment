@@ -1,0 +1,66 @@
+SpecialServiceType Statistics
+Advice Only                         1584
+Animal assistance incidents         1717
+Assist other agencies               1937
+Effecting entry/exit               19914
+Evacuation (no fire)                 547
+Flooding                           20837
+Hazardous Materials incident        1837
+Lift Release                       15850
+Making Safe (not RTC)               2816
+Medical Incident                    1619
+Medical Incident - Co-responder      666
+No action (not false alarm)         6323
+Other Transport incident             954
+Other rescue/release of persons     1100
+RTC                                12968
+Removal of objects from people      1166
+Rescue or evacuation from water      134
+Spills and Leaks (not RTC)          2536
+Stand By                             197
+Suicide/attempts                     700
+Water provision                        4
+----------------------------------------
+The above CAN be extracted for a SPECIFIC borough
+----------------------------------------
+
+Total number of calls per day of the week [0->6]
+5    45918
+4    44095
+6    43532
+3    43378
+1    43156
+0    42912
+2    42858
+----------------------------------------
+Number of calls for SPECIAL SERVICE per day of the week [0->6]
+5    15530
+6    14517
+4    13751
+3    13096
+1    12955
+0    12939
+2    12664
+Notice higher number of calls on days 5&6 (weekend)
+----------------------------------------
+Number of calls for FIRE per day of the week [0->6]
+6    8589
+5    8312
+0    8101
+4    8020
+1    7963
+3    7753
+2    7583
+----------------------------------------
+Number of calls for FALSE ALARM per day of the week [0->6]
+2    22611
+3    22529
+4    22324
+1    22238
+5    22076
+0    21872
+6    20426
+Notice lower value for day 6 (Sunday)
+----------------------------------------
+GRAPHS FOR THE ABOVE 4 CATEGORIES ARE AVAIALBLE
+----------------------------------------
