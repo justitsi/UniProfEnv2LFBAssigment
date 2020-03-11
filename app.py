@@ -19,14 +19,32 @@ data_fire = data [data['IncidentGroup']=='Fire']
 data_ss = data [data['IncidentGroup']=='Special Service']
 data_fa= data [data['IncidentGroup']=='False Alarm']
 
-data_byDayOfTheWeek = data_fa   ['DateOfCall'].dt.dayofweek
-print (data_byDayOfTheWeek)
-count = data_byDayOfTheWeek.value_counts()
-print (count)
 
-myfigure = plt.figure()
-plt.hist(data_byDayOfTheWeek, bins = 7)
-plt.show()
+data_tmp = data_ss.pivot_table(index=['SpecialServiceType'], aggfunc='size')
+data_tmp.to_frame()
+indexNamesArr = data_tmp.index.values
+print (indexNamesArr)
 
-#data_tmp = data_ss.pivot_table(index=['SpecialServiceType'], aggfunc='size')
-#print (data_tmp)
+for i in indexNamesArr:
+    print (i)
+    tmp = data_ss[data_ss['SpecialServiceType']==i]
+    tmp = tmp['DateOfCall'].dt.dayofweek
+    # print (tmp)
+    count = tmp.value_counts()
+    print (count)
+
+    # myfigure = plt.figure()
+    # plt.hist(tmp, bins = 7)
+    # plt.show()
+
+
+
+
+# data_byDayOfTheWeek = data_fa['DateOfCall'].dt.dayofweek
+# print (data_byDayOfTheWeek)
+# count = data_byDayOfTheWeek.value_counts()
+# print (count)
+
+# myfigure = plt.figure()
+# plt.hist(data_byDayOfTheWeek, bins = 7)
+# plt.show()

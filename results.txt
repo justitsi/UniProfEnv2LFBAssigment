@@ -64,3 +64,214 @@ Notice lower value for day 6 (Sunday)
 ----------------------------------------
 GRAPHS FOR THE ABOVE 4 CATEGORIES ARE AVAIALBLE
 ----------------------------------------
+
+TODO: special services per borough?
+
+
+SPECIAL SERVICES PER WEEKDAY:
+----------------------------------------
+Advice Only
+6    253
+3    245
+0    243
+5    231
+1    217
+4    209
+2    186
+Name: DateOfCall, dtype: int64
+----------------------------------------
+Animal assistance incidents
+6    287
+5    267
+0    246
+1    243
+2    232
+4    231
+3    211
+Name: DateOfCall, dtype: int64
+----------------------------------------
+Assist other agencies
+2    300
+4    287
+5    282
+1    273
+0    267
+3    266
+6    262
+Name: DateOfCall, dtype: int64
+----------------------------------------
+Effecting entry/exit
+5    3054
+4    2970
+6    2838
+2    2782
+0    2782
+1    2749
+3    2739
+Name: DateOfCall, dtype: int64
+----------------------------------------
+Evacuation (no fire)
+3    96
+6    87
+2    81
+0    81
+1    75
+4    67
+5    60
+Name: DateOfCall, dtype: int64
+----------------------------------------
+Flooding
+5    3708
+6    3366
+4    2932
+1    2836
+0    2753
+3    2693
+2    2549
+Name: DateOfCall, dtype: int64
+----------------------------------------
+Hazardous Materials incident
+6    284
+5    280
+1    275
+3    260
+2    251
+4    245
+0    242
+Name: DateOfCall, dtype: int64
+----------------------------------------
+Lift Release
+5    2737
+4    2319
+6    2287
+3    2175
+0    2140
+1    2108
+2    2084
+Name: DateOfCall, dtype: int64
+----------------------------------------
+Making Safe (not RTC)
+3    507
+5    506
+6    470
+4    363
+2    360
+0    307
+1    303
+Name: DateOfCall, dtype: int64
+----------------------------------------
+Medical Incident
+6    246
+5    243
+1    239
+4    234
+3    229
+0    217
+2    211
+Name: DateOfCall, dtype: int64
+----------------------------------------
+Medical Incident - Co-responder
+5    108
+2    101
+3     99
+0     99
+6     96
+4     89
+1     74
+Name: DateOfCall, dtype: int64
+----------------------------------------
+No action (not false alarm)
+4    977
+6    935
+5    925
+2    895
+0    873
+3    861
+1    857
+Name: DateOfCall, dtype: int64
+----------------------------------------
+Other Transport incident
+6    157
+3    151
+5    138
+4    134
+0    130
+2    128
+1    116
+Name: DateOfCall, dtype: int64
+----------------------------------------
+Other rescue/release of persons
+1    179
+3    161
+5    159
+6    154
+0    152
+4    149
+2    146
+Name: DateOfCall, dtype: int64
+----------------------------------------
+RTC
+5    2130
+6    2098
+4    1874
+0    1740
+1    1728
+3    1720
+2    1678
+Name: DateOfCall, dtype: int64
+----------------------------------------
+Removal of objects from people
+6    187
+5    171
+4    167
+1    164
+2    162
+0    159
+3    156
+Name: DateOfCall, dtype: int64
+----------------------------------------
+Rescue or evacuation from water
+5    22
+3    22
+1    21
+6    20
+2    20
+4    15
+0    14
+Name: DateOfCall, dtype: int64
+----------------------------------------
+Spills and Leaks (not RTC)
+2    382
+5    376
+3    368
+1    363
+4    361
+6    344
+0    342
+Name: DateOfCall, dtype: int64
+----------------------------------------
+Stand By
+0    46
+3    31
+5    29
+1    29
+4    23
+6    22
+2    17
+Name: DateOfCall, dtype: int64
+----------------------------------------
+Suicide/attempts
+6    119
+0    102
+3     99
+1     99
+5     96
+4     93
+2     92
+Name: DateOfCall, dtype: int64
+----------------------------------------
+Water provision
+4    2
+3    1
+2    1
+Name: DateOfCall, dtype: int64
